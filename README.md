@@ -3,13 +3,17 @@
 #### _JavaScript Drum Kit by JavaScript30 10/01/19_
 
 ## Description
-This is JavaScript Drum Kit application, 1st out of 30 of 30 day Vanilla JS Coding Challenge application by Wes Boss.<br>
+This is JavaScript Drum Kit application, 1st out of 30 of 30 day Vanilla JavaScript Coding Challenge application by Wes Boss.<br>
 Please check the challenge from [JavaScript30](http://wesbos.com/javascript30/).
 
-## About this Application:
-- The key press (`A`, `S`, `D`, `F`, `G`, `H`, `J`, `K`, `L`) adds event to play a sound.
-- 
+![Screenshot of the app](img/screenshot.png)
 
+ This application is responsive.
+![Responsive screenshot](img/screenshot2.png)
+
+## About this Application:
+- The key press (`A`, `S`, `D`, `F`, `G`, `H`, `J`, `K`, `L`) adds event to play corresponded sounds.
+- Listens `keydown` events to play sound.
 
 
 ## Setup/Installation Requirements
