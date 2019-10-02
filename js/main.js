@@ -3,18 +3,25 @@ const playSound = event => {
     const key = document.querySelector(`.key[data-key="${event.keyCode}"]`);
     // Return if sound doesn't exist.
     if(!sound) return;
-    Audio.currentTime = 0;
+    
+    sound.currentTime = 0;
     sound.play();
     // Add a class name 'playing' to the div with class 'key'.
     key.classList.add("playing");
 }
 
 const removeTransition = event => {
-    // Return if it's not a transform
+    // Return if the propertyName is not a transform.
     if(event.propertyName !== 'transform') return;
-    TouchList.classList.remove('playing');
+    console.log(this);
+    event.target.classList.remove("playing");
 }
 
 (function(){
-    window.addEventListener('keydown', playSound);
+    const keys = document.querySelectorAll('.key');
+    // Loop through each key and invoke removeTransition every time transition ends.
+    keys.forEach(key =>
+        key.addEventListener('transitionend', removeTransition)
+    );
+    document.addEventListener('keydown', playSound);
 })();
