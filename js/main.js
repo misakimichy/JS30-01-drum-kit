@@ -13,7 +13,6 @@ const playSound = event => {
 const removeTransition = event => {
     // Return if the propertyName is not a transform.
     if(event.propertyName !== 'transform') return;
-    console.log(this);
     event.target.classList.remove("playing");
 }
 
