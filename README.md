@@ -3,7 +3,7 @@
 #### _JavaScript Drum Kit by JavaScript30 10/01/19_
 
 ## Description
-This is JavaScript Drum Kit application, 1st out of 30 of 30 day Vanilla JavaScript Coding Challenge application by Wes Boss.<br>
+This is JavaScript Drum Kit application, 1st out of 30 of 30 day Vanilla JavaScript Coding Challenge by Wes Bos.<br>
 Please check the challenge from [JavaScript30](http://wesbos.com/javascript30/).
 
 ![Screenshot of the app](img/screenshot.png)
@@ -12,7 +12,7 @@ Please check the challenge from [JavaScript30](http://wesbos.com/javascript30/).
 ![Responsive screenshot](img/screenshot2.png)
 
 ## About this Application:
-- The key press (`A`, `S`, `D`, `F`, `G`, `H`, `J`, `K`, `L`) adds event to play corresponded sounds.
+- The key press (`A`, `S`, `D`, `F`, `G`, `H`, `J`, `K`, `L`) adds an event to play corresponded sounds.
 - Listens `keydown` events to play sound.
 
 
@@ -20,7 +20,7 @@ Please check the challenge from [JavaScript30](http://wesbos.com/javascript30/).
 
 1. Clone this repo:
 ```
-$ git clone https://github.com/misakimichy/js30-drum-kit.git
+$ git clone https://github.com/misakimichy/JS30-01-drum-kit.git
 ```
 
 2. Navigate to the top level of the cloned directory.
